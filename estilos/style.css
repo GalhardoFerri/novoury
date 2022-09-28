@@ -1,0 +1,198 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ms+Madi&family=Satisfy&display=swap');
+
+:root {
+    ---font-1: 'Dancing Script',  cursive;
+    ---font-2: Arial, helvetica, sans-serif;
+ 
+   ---cor1: #6ddb9e;
+   ---cor2: #BFBA73;
+   ---cor3: #D9CC8B;
+   ---cor4: #73594F;
+   ---cor5: #260906;
+   ---cor6: rgb(19, 90, 86);
+   ---cor7: rgb(87, 227, 227);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+body, main {
+    margin: auto;
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+  id#nome h1 {
+    font-family: var(---font-1);
+    font-style: italic;
+    text-align:center;
+    font-size: 2.4em;
+    color:white;
+    text-shadow: 3px 3px 7px  rgba(0, 0, 0, 0.897);
+}
+
+
+
+h2{
+    padding: 10px;
+    font-family: var(---font-1);
+    font-size: 2em;
+    }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 10vh;
+    font-family: var(--fonte2);
+    font-style: italic;
+    font-size: 1em;
+}
+
+
+section.normal li {
+list-style: none;
+Padding:5px
+
+
+}
+
+section.normal  {
+    font-family: var(---font-2);
+    font-size:1em;
+    padding:5px;
+    margin: 5px;
+     
+ }
+id.intermediario {
+    text-align: center;
+
+ }
+ section.avançado {
+   font-family: var(---font-2);
+   font-style: italic;
+   font-size: ;
+    padding:10px;
+    margin: 5px;
+    text-align: center;
+     
+ }
+ section.avançado h2 {
+    text-align: center;
+    font-family: var(---font-1);
+    font-weight: italic;
+    font-size:2em;
+ }
+ id.intermediario p {  
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align:  center;
+ 
+    
+
+ }
+
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.699);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+  
+   
+}
+
+section.imagem > p {
+    display: inline-block;
+    font-size:1em;
+    text-shadow: 1px 1px 0px rgb(58, 57, 57);
+    background-color: rgba(0, 0, 0, 0.356);
+    text-align:center;
+    padding: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+section#img01 {
+    background-image: url('../estilos/imagem/WhatsApp\ Image\ 2022-09-16\ at\ 13.38.09\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+section#img02 > p {
+ background-color: rgba(255, 255, 255, 0.034);
+ padding:5px;
+ font-size:1em;
+
+}
+section#img02 {
+    background-image: url('../estilos/imagem/2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer {
+     text-align: center;
+ 
+}
+div.logo, img {
+  display: inline-block;
+  max-width: 30px;
+  padding:10px;
+  position: absolute; 
+ 
+
+ 
+}
+div.logo, img {
+    display: inline-block;
+    width: 10vw;
+    position: relative;
+   
+}
+
+p.fim{
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.438);
+}
+
+ 
