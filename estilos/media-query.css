@@ -29,4 +29,27 @@ Grandes telas: acima de 1200px
         width: 768px;
     }
 
+
+    @media screen and (min-width: 992px) {
+
+        i#burguer {
+            display: none;
+           
+        }
+    
+        menu {
+            display: block;
+        }
+    
+        menu > ul > li {
+            display: inline-block;
+        }
+    
+        main {
+            width: 768px;
+        }
+   
+footer div.logo > img {
+
+   
 }

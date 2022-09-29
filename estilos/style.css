@@ -187,6 +187,11 @@ div.logo, img {
     position: relative;
    
 }
+div.logoum, img {
+    text-align: center;
+}
+
+
 
 p.fim{
   font-size: 1em;
