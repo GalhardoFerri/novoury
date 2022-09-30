@@ -14,7 +14,7 @@ Grandes telas: acima de 1200px
 
     i#burguer {
         display: block;
-        background-color: ;
+     
        
     }
 
@@ -37,17 +37,24 @@ Grandes telas: acima de 1200px
         width: 768px;
     }
     
-
-
-    @media screen and (min-width: 992px) {
+   @media screen and (min-width: 992px) {
 
         i#burguer {
             display: block;
-          
            
           
         }
-                       
+      menu#itens, ul  {
+        font-family: Arial, Helvetica, sans-serif;
+       font-size: 1em;
+        list-style: none;
+      }
+   
+       div#burguer{
+        font-size: 2em;
+      
+      }
+           
          
           #nome h1  {
             font-size: 5em;
