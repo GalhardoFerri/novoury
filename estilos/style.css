@@ -10,7 +10,7 @@
    ---cor1: #6ddb9e;
    ---cor2: #BFBA73;
    ---cor3: #D9CC8B;
-   ---cor4: #73594F;
+   ---cor4: ;
    ---cor5: #260906;
    ---cor6: rgb(19, 90, 86);
    ---cor7: rgb(87, 227, 227);
@@ -25,41 +25,55 @@ body, main {
    
 }
 
-i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
+div#burguer {
     display: block;
-    text-align: center;
-    padding: 10px;
+    text-align: justify;
     cursor: pointer;
+    border-radius: 20px 0px;
+    margin:20px;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+ 
+   
+
 }
 
-i#burguer:hover {
-    background-color: white;
-    color: black;
+div#burguer:hover {
+    background-color:lightgray;
+  
+
 }
+
 
 menu {
     display: none;
+    
 }
-
-menu > ul {
-    list-style-type: none;
-}
-
-menu > ul > li > a {
+menu#itens > ul > li > a {
     display: block;
-    padding: 10px;
+    margin-left: 30px;
+    padding: 5px;
     text-decoration: none;
-    text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    border-top: 2px solid gray;
+    color: black ;
+  
+    border-radius: 0px 10px;
+    box-shadow: 0px 0px 2px 2px white;
+    width: 90px;
+}
+menu#itens > ul > li > a:hover{
+    background-color: lightgray;
+     font-style: normal;
+} 
+
+    
+    {
+    background-color: lightgray;
+    text-decoration: none;
+    list-style: none;
+    
 }
 
-menu > ul > li > a:hover {
-    background-color: gray;
-}
+
   #nome h1 {
     margin-top: 10px;
     font-family: var(---font-1);
@@ -67,6 +81,7 @@ menu > ul > li > a:hover {
     text-align:center;
     font-size: 2.4em;
     color:white;
+ 
     text-shadow: 3px 3px 7px  rgba(0, 0, 0, 0.897);
 }
 
