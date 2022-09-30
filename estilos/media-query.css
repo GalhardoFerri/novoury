@@ -30,6 +30,10 @@ Grandes telas: acima de 1200px
     }
 
 
+
+
+
+
     @media screen and (min-width: 992px) {
 
         i#burguer {
@@ -38,18 +42,74 @@ Grandes telas: acima de 1200px
         }
     
         menu {
-            display: block;
+            display:block;
+            padding: 5px;
+          
+            font-size: 1.3em;
+            text-align: center;
+           
         }
     
-        menu > ul > li {
+        menu > ul > li > a{
             display: inline-block;
+            background-color: rgb(82, 7, 7);
+           box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.13);
+            color:white;
+            text-decoration: none;
+            font-style: normal;
+         
+          
+         
+        }
+        menu > ul > li > a:hover{
+            background-color: rgb(116, 6, 6);
+                   transition: 0.5s;
+           
+            
+        }
+        body,main {
+            width:60%;
+        }
+       
+         menu{
+            background-color:rgb(82, 7, 7) ;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+         }
+     
+    
+         
+       
+        body, menu {
+           width: 100vw;
+        }
+          #nome h1  {
+            font-size: 5em;
+        }
+        section.normal{
+            font-size: 1.7em;
+        }
+        p  {
+            font-size:1.5em;
+        }
+        section.avançado h2 {
+            font-size: 3em;
+            padding: 25px;
+        }
+        section.imagem{
+            padding:90px ;
+        }
+        
+     
+        section#img01 {
+            font-size: 1.6em;
+        }
+        section#img02{
+            font-size: 1.6em;
+           
+           
         }
     
-        main {
-            width: 768px;
+        div.logo, img {
+           max-width:70px;
         }
-   
-footer div.logo > img {
 
-   
-}
